@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracking Form</title>
+</head>
+<body>
+    <h1>Habit Tracking Input</h1>
+    <h2>Your Goals</h2>
+    <form id="Goal-Setting">
+        <label for="task-name">Task Name:</label>
+        <input type="text" id="task-name" name="task-name">
+      
+        <label for="minutes-per-day">Minutes per Day:</label>
+        <input type="number" id="minutes-per-day" name="minutes-per-day">
+      
+        <label for="task-category">Task Category:</label>
+        <select id="task-category" name="task-category">
+          <option value="goal-setting">Goal Setting</option>
+          <option value="career">Career</option>
+          <option value="finances">Finances</option>
+          <option value="wisdom">Wisdom</option>
+          <option value="relationships">Relationships</option>
+          <option value="character">Character</option>
+          <option value="god-connection">God Connection</option>
+          <option value="health">Health</option>
+          <option value="material">Material</option>
+          <option value="creative">Creative</option>
+          <option value="community">Community</option>
+        </select>
+        <input type="submit" value="Submit">
+      </form id='timeDateTracking'>
+    
+      <form id="habit-tracker-form">
+        <label for="task-name">Task Name:</label>
+        <select id="task-name" name="task-name">
+          <!-- options for task names -->
+        </select>
+      
+        <label for="actual-minutes">Actual Minutes Completed:</label>
+        <input type="number" id="actual-minutes" name="actual-minutes">
+      
+        <label for="date-completed">Date Completed:</label>
+        <input type="date" id="date-completed" name="date-completed">
+      
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
